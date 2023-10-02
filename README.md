@@ -11,7 +11,7 @@ The script automates the process of modifying the specified text line inside the
 1. **Clone the Repository**: Clone this repository to your local machine or download the script directly.
 
 ```bash
-git clone https://github.com/eriksantana-io/update_vmware_path.sh.git
+git clone --no-checkout https://github.com/eriksantana-io/update_vmware_path.sh.git
 ```
 
 2. **Make the Script Executable**: Navigate to the script's directory and make it executable.

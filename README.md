@@ -1,6 +1,6 @@
 ## Fix for incorrect VMWare Fusion environment PATH file
 
-This script provides a solution for the error `env: Fusion.app/Contents/Public: No such file or directory` caused by an incorrect VMWare Fusion environment PATH file located at `/etc/paths.d/com.vmware.fusion.public`. This error occurs due to the absence of an escape for the space character in the file path.
+This script provides a solution for the error `env: Fusion.app/Contents/Public: No such file or directory` caused by an incorrect VMWare Fusion environment PATH file located at `/etc/paths.d/com.vmware.fusion.public`. This error occurs due to the absence of an escape for the space character in the file path as referenced in this Stack Overflow forum post: https://stackoverflow.com/questions/49722724/getting-no-such-file-or-directory-when-executing-any-terminal-command-caused
 
 ## Description
 

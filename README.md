@@ -19,21 +19,24 @@ git clone https://github.com/your-username/vmware-fusion-path-fix.git
 ``` bash
 cd vmware-fusion-path-fix
 chmod +x update_vmware_path.sh
-Run the Script: Execute the script with sudo to update the VMWare Fusion environment PATH file.
 ```
 
 3. **Run the Script**: Execute the script with sudo to update the VMWare Fusion environment PATH file.
 ``` bash
 sudo ./update_vmware_path.sh
-You may be prompted to enter your password to run the script with superuser privileges.
 ```
 
 4. **Verify the Update**: After running the script, the PATH file should be corrected, and you should see the message "Path updated successfully."
+``` bash
+sudo cat /etc/paths.d/com.vmware.fusion.public
+```
+5. Restart your terminal or run source on the terminal configuration file:
+```bash
+source ~/.zshrc
+```
 
-### Important Notes
-This script creates a backup of the original PATH file with a .bak extension in your home folder before making changes. If you encounter any issues, you can restore the backup file.
-Always use caution when modifying system files with sudo. Incorrect changes can potentially disrupt your system.
-Make sure to have appropriate permissions to run the script with sudo.
+## Important Notes
+This script creates a backup of the original PATH file with a .bak extension in your home folder before making changes. If you encounter any issues, you can restore the backup file. Always use caution when modifying system files with sudo. Incorrect changes can potentially disrupt your system. Make sure to have appropriate permissions to run the script with sudo.
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.

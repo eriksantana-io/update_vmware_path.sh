@@ -35,5 +35,5 @@ This script creates a backup of the original PATH file with a .bak extension in 
 Always use caution when modifying system files with sudo. Incorrect changes can potentially disrupt your system.
 Make sure to have appropriate permissions to run the script with sudo.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.

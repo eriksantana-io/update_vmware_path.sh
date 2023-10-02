@@ -17,6 +17,7 @@ git clone https://github.com/eriksantana-io/update_vmware_path.sh.git
 2. **Make the Script Executable**: Navigate to the script's directory and make it executable.
 
 ``` bash
+cd update_vmware_path.sh/
 chmod +x update_vmware_path.sh
 ```
 

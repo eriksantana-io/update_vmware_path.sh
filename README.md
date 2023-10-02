@@ -11,13 +11,13 @@ The script automates the process of modifying the specified text line inside the
 1. **Clone the Repository**: Clone this repository to your local machine or download the script directly.
 
 ```bash
-git clone https://github.com/your-username/vmware-fusion-path-fix.git
+git clone https://github.com/eriksantana-io/update_vmware_path.sh.git
 ```
 
 2. **Make the Script Executable**: Navigate to the script's directory and make it executable.
 
 ``` bash
-cd vmware-fusion-path-fix
+cd update_vmware_path
 chmod +x update_vmware_path.sh
 ```
 

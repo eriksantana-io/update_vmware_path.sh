@@ -30,10 +30,7 @@ sudo ./update_vmware_path.sh
 ``` bash
 sudo cat /etc/paths.d/com.vmware.fusion.public
 ```
-5. Restart your terminal or run source on the terminal configuration file:
-```bash
-source ~/.zshrc
-```
+5. Restart your terminal.
 
 ## Important Notes
 This script creates a backup of the original PATH file with a .bak extension in your home folder before making changes. If you encounter any issues, you can restore the backup file. Always use caution when modifying system files with sudo. Incorrect changes can potentially disrupt your system. Make sure to have appropriate permissions to run the script with sudo.
